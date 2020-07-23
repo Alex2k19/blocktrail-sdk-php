@@ -33,7 +33,7 @@
         "ext-dom": "*",
         "ext-curl": "*",
 
-        "bitwasp/bitcoin": "0.0.35.x-dev",
+        "bitwasp/bitcoin": "v1.0.*",
         "btccom/justencrypt": "v0.2.0",
         "btccom/cashaddress": "v0.0.3",
         "mdanter/ecc": "7.3.x-dev",
