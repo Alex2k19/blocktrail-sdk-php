@@ -34,7 +34,7 @@
     },
     "license": "MIT",
     "require": {
-        "bitwasp/bitcoin": "v1.0.4",
+        "bitwasp/bitcoin": "v0.0.35.1",
         "btccom/justencrypt": "dev-master",
         "btccom/cashaddress": "0.0.3",
         "mdanter/ecc": "0.5.2",
