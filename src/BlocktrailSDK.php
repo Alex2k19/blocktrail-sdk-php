@@ -1933,7 +1933,8 @@ class BlocktrailSDK implements BlocktrailSDKInterface {
         usort($result, function (PublicKeyInterface $a, PublicKeyInterface $b) {
             $av = $a->getHex();
             $bv = $b->getHex();
-            return $av == $bv ? 0 : $av > $bv ? 1 : -1;
+            
+            return $av == $bv ? 0 : ($av > $bv ? 1 : -1);
         });
 
         return $result;
