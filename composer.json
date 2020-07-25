@@ -34,10 +34,10 @@
     },
     "license": "MIT",
     "require": {
-        "bitwasp/bitcoin": "v0.0.35.1",
+        "alex2k19/bitcoin": "dev-master",
         "btccom/justencrypt": "dev-master",
         "btccom/cashaddress": "0.0.3",
-        "mdanter/ecc": "0.5.2",
+        "alex2k19/ecc": "dev-master",
         "guzzlehttp/guzzle": "6.*",
         "99designs/http-signatures-guzzlehttp": "2.0.1",
         "rych/hash_pbkdf2-compat": "1.0.1",
@@ -56,6 +56,10 @@
         "btccom/justencrypt": {
             "type": "vcs",
             "url": "https://github.com/Alex2k19/justencrypt-php"
+        },
+        "alex2k19/bitcoin": {
+            "type": "vcs",
+            "url": "https://github.com/Alex2k19/bitcoin-php"
         }
     }
 }
